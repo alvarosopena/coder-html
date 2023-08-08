@@ -136,6 +136,7 @@ body > main > div.main-top.about > div.text-top.about{
 
 }
 
+
 /* FORM */
 
 form {
@@ -176,6 +177,21 @@ footer {
 
 footer p {
   color: #171718;
+}
+
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  color:#6a6e73
+
+}
+
+.fa:hover {
+  opacity: 0.7;
+ 
 }
 
 /* Colores */
