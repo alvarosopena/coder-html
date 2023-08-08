@@ -142,6 +142,7 @@ body > main > div.main-top.about > div.text-top.about{
 form {
   color: #ffffff;
   size: larger;
+  font-weight: 700;
   background-color: #171718;
   border-radius: 20px;
   box-sizing: border-box;
