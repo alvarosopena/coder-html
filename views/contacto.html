@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="..img/alvaro.png">
+    <link rel="stylesheet" href="../styles/style.css">
+    <title>Contactame</title>
+
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header>
+        <div class="top-nav">
+            <a href="" class="logo">@alvarosopena</a>
+            <nav>
+                <ul>
+                    <li><a href="../index.html">| Home |</a></li>
+                    <li><a href="aboutme.html">Sobre mi |</a></li>
+                    <li><a href="curriculum.html">Llevate mi Cv |</a></li>
+                    <li><a href="proyectos.html">Mis Proyectos |</a></li>
+                    <li><a href="contacto.html">Contactame |</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Etiqueta form -->
+        <div class="main-top">
+            <h2>Contactame acá!</h2>
+        </div>
+        <div class="info">
+            <form action="">
+
+                <!-- label igual a id para "conectarlo" -->
+                <label for="nombre">Nombre o Compañía:</label>
+                <input class="input" type="name" name="name" id="nombre">
+
+                <label for="mail">Mail:</label>
+                <input class="input" type="mail" name="mail" placeholder="ejemplo@ejemplo.com" id="mail">
+
+                <label for="fecha">Fecha:</label>
+                <input class="input" type="date" name="date" id="fecha">
+
+                <label for="lenguaje">Lenguaje:</label>
+                <select name="lenguaje" id="lenguaje">
+                    <option value="js">Javascript(Frontend)</option>
+                    <option value="nd">Node(Backend)</option>
+                    <option value="fs">Fullstack</option>
+                    <option value="wp">Wordpress</option>
+                </select>
+                <br>
+                <label for="msj">Tu mensaje:</label>
+                <textarea name="" id="msj" cols="30" rows="10" placeholder="Escribime tu mensaje"></textarea>
+
+                <input class="input" type="submit">
+                <input class="input" type="reset" value="Borrar">
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <p>Made with love @ Alvaro Sopeña Figueroa</p>
+    </footer>
+
+</body>
+
+
+
+</html>
